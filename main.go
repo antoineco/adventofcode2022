@@ -8,6 +8,7 @@ import (
 	"adventofcode2022/day03"
 	"adventofcode2022/day04"
 	"adventofcode2022/day05"
+	"adventofcode2022/day06"
 	"adventofcode2022/fs"
 )
 
@@ -28,4 +29,7 @@ func main() {
 
 	fmt.Println("Day 05 / Puzzle 1:", day05.Puzzle1(fs, "inputs/d05.txt"))
 	fmt.Println("Day 05 / Puzzle 2:", day05.Puzzle2(fs, "inputs/d05.txt"))
+
+	fmt.Println("Day 06 / Puzzle 1:", day06.Puzzle1(fs, "inputs/d06.txt"))
+	fmt.Println("Day 06 / Puzzle 2:", day06.Puzzle2(fs, "inputs/d06.txt"))
 }
