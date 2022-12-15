@@ -12,6 +12,7 @@ import (
 	"adventofcode2022/day07"
 	"adventofcode2022/day08"
 	"adventofcode2022/day09"
+	"adventofcode2022/day10"
 	"adventofcode2022/fs"
 )
 
@@ -44,4 +45,7 @@ func main() {
 
 	fmt.Println("Day 09 / Puzzle 1:", day09.Puzzle1(fs, "inputs/d09.txt"))
 	fmt.Println("Day 09 / Puzzle 2:", day09.Puzzle2(fs, "inputs/d09.txt"))
+
+	fmt.Println("Day 10 / Puzzle 1:", day10.Puzzle1(fs, "inputs/d10.txt"))
+	fmt.Printf("Day 10 / Puzzle 2:\n%s\n", day10.Puzzle2(fs, "inputs/d10.txt"))
 }
